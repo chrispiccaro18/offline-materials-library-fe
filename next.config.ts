@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
-// import next from "next";
 import withPWA from "next-pwa";
 
 const nextConfig: NextConfig = {
-  // Your existing Next.js options
   reactStrictMode: true,
   swcMinify: true,
 };
