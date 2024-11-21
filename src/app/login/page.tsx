@@ -1,3 +1,5 @@
+'use client';
+
 import { useUser } from '@auth0/nextjs-auth0/client';
 
 const LoginPage: React.FC = () => {
@@ -10,7 +12,6 @@ const LoginPage: React.FC = () => {
         <div>
             {!user ? (
                 <>
-                    <h1>Login</h1>
                     <a href="/api/auth/login">Login</a>
                 </>
             ): (
